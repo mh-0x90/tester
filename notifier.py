@@ -11,5 +11,5 @@ def notify(data):
     print("Notification saved -> notifications.txt")
 
 def dummy():
-    ping() # good ping
+    ping() # good ping....
     print("This is a dummy function in notifier.py")
