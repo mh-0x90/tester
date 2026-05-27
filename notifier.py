@@ -7,6 +7,7 @@ def notify(data):
     ping()
     print(f"Sending notification: '{data}'")
     with open("notifications.txt", "a") as f:
+        print(f"{data}\n")
         f.write(f"{data}\n")
     print("Notification saved -> notifications.txt")
 
