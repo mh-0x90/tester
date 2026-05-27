@@ -1,7 +1,7 @@
 from pinger import ping
 
 def prepare_data(data):
-    return f"[NOTIFY] {data.strip().upper()}"
+    return f"[NOTIFYX] {data.strip().upper()}"
 
 def notify(data):
     ping()
